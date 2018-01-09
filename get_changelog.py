@@ -6,7 +6,7 @@ options = {
     'server': 'https://bankfacil.atlassian.net'
 }
 
-jira = JIRA(options=options, basic_auth=('luiz.assuncao@creditas.com.br', 'creditas@atlassian'))
+jira = JIRA(options=options, basic_auth=('', ''))
 projects = jira.projects()
 
 print jira.sprint_info(board_id=18, sprint_id=168)

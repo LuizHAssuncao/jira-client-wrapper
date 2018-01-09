@@ -58,4 +58,4 @@ def sprints(username,
     print(result)
     return result
 
-sprints('luiz.assuncao@creditas.com.br', 'creditas@atlassian', 'Ronaldinho', 18, 168)
+sprints('', '', 'Ronaldinho', 18, 168)
